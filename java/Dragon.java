@@ -14,7 +14,7 @@ public class Dragon {
 
     private Scanner scanner = new Scanner(System.in);
 
-    // === Constructor that asks the user for all key attributes ===
+    // === Constructors asks the user for all key attributes ===
     public Dragon() {
         System.out.print("Name your dragon: ");
         this.name = scanner.nextLine();
@@ -43,7 +43,7 @@ public class Dragon {
         this.status();
     }
 
-    // === Basic getters ===
+    // ===  getters ===
     public String getName() {
         return name;
     }
@@ -68,7 +68,7 @@ public class Dragon {
         return damage;
     }
 
-    // === Core behaviours ===
+    // === behaviours/actions ===
 
     public void greet() {
         System.out.println(name + " nods its head in greeting.");

@@ -1,3 +1,5 @@
+package tuckShopProject;
+
 public class PackOfCrisps {
     private String flavour;
     private int numOfCrisps;
