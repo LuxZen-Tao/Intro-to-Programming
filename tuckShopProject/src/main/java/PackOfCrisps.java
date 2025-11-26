@@ -1,5 +1,3 @@
-
-
 public class PackOfCrisps {
     private String flavour;
     private int numOfCrisps;
@@ -12,17 +10,13 @@ public class PackOfCrisps {
     }
 
     public String getFlavour() {
-        
         return flavour;
     }
     public int getNumOfCrisps() {
         return numOfCrisps;
     }
     public boolean isOpened() {
-        if (open) {
-        return true;
-        }
-        return false;
+        return open;
     }
 
     public boolean isClosed() {
